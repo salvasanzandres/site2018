@@ -10,6 +10,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {ROUTES} from "./pages/app-routing.module";
 import {MatSidenavModule, MatOptionModule, MatSelectModule} from "@angular/material";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {StorageProxy} from "./core/infrastructure/proxies/storage.proxy";
+import {StorageService} from "./core/domain/services/storage.service";
+import {ConfigurationService} from "./core/domain/services/configuration.service";
 
 
 @NgModule({
@@ -21,7 +24,9 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules
     }), MatGridListModule, MatSidenavModule, BrowserAnimationsModule, MatOptionModule, MatSelectModule],
-  providers: [],
+  providers: [{provide: ConfigurationService, useClass: ConfigurationService},
+              {provide: StorageProxy, useClass: StorageProxy},
+              {provide: 'StorageService', useClass: StorageService}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
