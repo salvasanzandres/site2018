@@ -3,11 +3,11 @@
   <h1>
 ...
   </h1>
-
-
-
-
-
+  <ul>
+    <li *ngFor="let ln of lng" [class.selected]="ln == selectedLang" (click)="changeLang(ln)" >
+      {{ln}}
+    </li>
+  </ul>
 
 
       <nav *ngIf="!isPhone">
@@ -17,7 +17,7 @@
 
 
 
-
+<!--
     <mat-sidenav-container fullscreen class="example-container" *ngIf="isPhone">
       <mat-sidenav #sidenav class="example-sidenav" mode="over">
         <nav>
@@ -31,7 +31,7 @@
         </button>
       </div>
     </mat-sidenav-container>
-
+-->
 
 
 

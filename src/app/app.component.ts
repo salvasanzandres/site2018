@@ -1,4 +1,5 @@
 import {Component, HostListener, ViewEncapsulation} from '@angular/core';
+import {ConfigurationService} from "./core/domain/services/configuration.service";
 
 @Component({
   selector: 'app-root',
@@ -10,20 +11,29 @@ export class AppComponent {
   title = 'app';
   public innerWidth: any;
   public isPhone: boolean = false;
-  foods = [
-    {value: 'steak-0', viewValue: 'Now press ESC'},
-    {value: 'pizza-1', viewValue: 'Pizza'},
-    {value: 'tacos-2', viewValue: 'Tacos'}
-  ];
+  public lng : string[] = ['en','fr','es'];
+  public selectedLang: string = 'fr';
+
+  constructor(private ConfigurationService: ConfigurationService){
+  }
 
   ngOnInit() {
     this.innerWidth = window.innerWidth;
     this.isPhone = this.innerWidth < 400;
+
+    this.ConfigurationService.lang.subscribe((response) => {
+      this.selectedLang = response;
+    })
   }
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.innerWidth = window.innerWidth;
     this.isPhone = this.innerWidth < 400;
+  }
+
+  changeLang(ln: string){
+    this.selectedLang = ln;
+    this.ConfigurationService.setLanguage(ln);
   }
 }
