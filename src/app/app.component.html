@@ -1,42 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>
-...
-  </h1>
+  <h1>...</h1>
+  <div>{{ 'HELLO' | translate:param }}</div>
   <ul>
-    <li *ngFor="let ln of lng" [class.selected]="ln == selectedLang" (click)="changeLang(ln)" >
+    <li *ngFor="let ln of configurationService.avaliableLang" [class.selected]="ln == selectedLang"
+        (click)="changeLang(ln)">
       {{ln}}
     </li>
   </ul>
 
-
-      <nav *ngIf="!isPhone">
-        <a routerLink="/welcome" routerLinkActive="active">W</a>
-        <a routerLink="/parcours" routerLinkActive="active">P</a>
-      </nav>
-
+  <nav *ngIf="!isPhone">
+    <a routerLink="/welcome" routerLinkActive="active">W</a>
+    <a routerLink="/parcours" routerLinkActive="active">P</a>
+  </nav>
 
 
-<!--
-    <mat-sidenav-container fullscreen class="example-container" *ngIf="isPhone">
-      <mat-sidenav #sidenav class="example-sidenav" mode="over">
-        <nav>
-          <a routerLink="/welcome" routerLinkActive="active">W</a>
-          <a routerLink="/parcours" routerLinkActive="active">P</a>
-        </nav>
-      </mat-sidenav>
-      <div class="example-sidenav-content">
-        <button type="button" mat-button (click)="sidenav.open()">
-          menu
-        </button>
-      </div>
-    </mat-sidenav-container>
--->
-
-
-
-
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 
 </div>
 
