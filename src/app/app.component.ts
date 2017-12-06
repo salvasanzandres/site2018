@@ -10,18 +10,17 @@ import {ConfigurationService} from "./core/domain/services/configuration.service
 export class AppComponent {
   title = 'app';
   public innerWidth: any;
-  public isPhone: boolean = false;
-  public lng : string[] = ['en','fr','es'];
   public selectedLang: string = 'fr';
+  param = {value: 'world'};
 
-  constructor(private ConfigurationService: ConfigurationService){
-  }
+  constructor(private configurationService: ConfigurationService){}
 
   ngOnInit() {
     this.innerWidth = window.innerWidth;
-    this.isPhone = this.innerWidth < 400;
+    this.configurationService.isPhone = this.innerWidth < 400;
 
-    this.ConfigurationService.lang.subscribe((response) => {
+    //opens subscription to selected lang - in synchro with BehaviourSubject
+    this.configurationService.lang.subscribe((response) => {
       this.selectedLang = response;
     })
   }
@@ -29,11 +28,11 @@ export class AppComponent {
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.innerWidth = window.innerWidth;
-    this.isPhone = this.innerWidth < 400;
+    this.configurationService.isPhone = this.innerWidth < 400;
   }
 
   changeLang(ln: string){
-    this.selectedLang = ln;
-    this.ConfigurationService.setLanguage(ln);
+    this.configurationService.setLanguage(ln);
+
   }
 }
