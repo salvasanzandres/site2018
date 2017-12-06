@@ -9,7 +9,7 @@
     </li>
   </ul>
 
-  <nav *ngIf="!isPhone">
+  <nav *ngIf="!configurationService.isPhone">
     <a routerLink="/welcome" routerLinkActive="active">W</a>
     <a routerLink="/parcours" routerLinkActive="active">P</a>
   </nav>

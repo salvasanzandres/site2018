@@ -10,7 +10,6 @@ import {ConfigurationService} from "./core/domain/services/configuration.service
 export class AppComponent {
   title = 'app';
   public innerWidth: any;
-  public isPhone: boolean = false;
   public selectedLang: string = 'fr';
   param = {value: 'world'};
 
@@ -18,7 +17,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.innerWidth = window.innerWidth;
-    this.isPhone = this.innerWidth < 400;
+    this.configurationService.isPhone = this.innerWidth < 400;
 
     //opens subscription to selected lang - in synchro with BehaviourSubject
     this.configurationService.lang.subscribe((response) => {
@@ -29,7 +28,7 @@ export class AppComponent {
   @HostListener('window:resize', ['$event'])
   onResize(event) {
     this.innerWidth = window.innerWidth;
-    this.isPhone = this.innerWidth < 400;
+    this.configurationService.isPhone = this.innerWidth < 400;
   }
 
   changeLang(ln: string){

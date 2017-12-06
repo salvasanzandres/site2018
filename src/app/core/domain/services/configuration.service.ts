@@ -10,6 +10,7 @@ export class ConfigurationService implements iConfigurationService{
 
   public lang: BehaviorSubject<string> = new BehaviorSubject(null);
   public avaliableLang : string[] = ['fr','en','es'];
+  public isPhone: boolean = false;
 
   constructor(@Inject('StorageService') private appStorage: StorageService,
               private translateService: TranslateService ){
