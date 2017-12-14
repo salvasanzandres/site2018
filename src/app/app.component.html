@@ -1,6 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-  <h1>...</h1>
+  <h1>.</h1>
   <div>{{ 'HELLO' | translate:param }}</div>
   <ul>
     <li *ngFor="let ln of configurationService.avaliableLang" [class.selected]="ln == selectedLang"
@@ -10,8 +10,9 @@
   </ul>
 
   <nav *ngIf="!configurationService.isPhone">
-    <a routerLink="/welcome" routerLinkActive="active">W</a>
-    <a routerLink="/parcours" routerLinkActive="active">P</a>
+    <a routerLink="/welcome" routerLinkActive="active">{{ 'menu_title_presentation' | translate }}</a>
+    <a routerLink="/parcours" routerLinkActive="active">{{ 'menu_title_parcours' | translate }}</a>
+    <a routerLink="/projects" routerLinkActive="active">{{ 'menu_title_projects' | translate }}</a>
   </nav>
 
 
