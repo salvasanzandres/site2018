@@ -1,16 +1,16 @@
 import {Component} from "@angular/core";
+import {Experience} from "../../core/domain/models/experience.model";
+import {ConfigurationService} from "../../core/domain/services/configuration.service";
 
 @Component({
   selector: 'parcours-component',
   templateUrl: './parcours.component.html'
 })
 export class ParcoursComponent {
-  tiles = [
-    {text: 'One', cols: 3, rows: 1, color: 'white'},
-    {text: 'Two', cols: 1, rows: 2, color: 'white'},
-    {text: 'Three', cols: 1, rows: 1, color: 'white'},
-    {text: 'Four', cols: 2, rows: 1, color: '#white'},
-  ];
-  constructor(){}
+  public experiences: Experience[];
+
+  constructor(private configurationService: ConfigurationService){
+    this.experiences = this.configurationService.getExperiences();
+  }
 
 }

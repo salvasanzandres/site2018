@@ -4,6 +4,7 @@ import {Inject, Injectable} from "@angular/core";
 import {StorageProxy} from "../../infrastructure/proxies/storage.proxy";
 import {Observable, BehaviorSubject} from "rxjs";
 import {TranslateService} from "@ngx-translate/core";
+import {Experience, EXPERIENCES} from "../models/experience.model";
 
 @Injectable()
 export class ConfigurationService implements iConfigurationService{
@@ -35,5 +36,9 @@ export class ConfigurationService implements iConfigurationService{
     this.translateService.use(ln);
     this.appStorage.set('ln', ln);
     this.lang.next(ln);
+  }
+
+  getExperiences():Experience[]{
+    return EXPERIENCES;
   }
 }
