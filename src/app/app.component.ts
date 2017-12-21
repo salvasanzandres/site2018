@@ -11,7 +11,8 @@ export class AppComponent {
   title = 'app';
   public innerWidth: any;
   public selectedLang: string = 'fr';
-  param = {value: 'world'};
+  public isActiveBurger: boolean = false;
+  public routes: string[] = ['/welcome','/parcours','/projects'];
 
   constructor(private configurationService: ConfigurationService){}
 
@@ -33,6 +34,9 @@ export class AppComponent {
 
   changeLang(ln: string){
     this.configurationService.setLanguage(ln);
+  }
 
+  switchBurger(){
+    this.isActiveBurger = ! this.isActiveBurger;
   }
 }
