@@ -16,6 +16,7 @@ import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {ProjectsComponent} from "./pages/projects/projects.component";
 import {ParcoursDetailComponent} from "./pages/parcours/detail/parcours-detail.component";
 import {ChartModule} from "primeng/components/chart/chart";
+import {LightboxModule} from "primeng/components/lightbox/lightbox";
 
 
 
@@ -36,7 +37,7 @@ import {ChartModule} from "primeng/components/chart/chart";
       enableTracing: false ,
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules
-    }),BrowserAnimationsModule, ChartModule],
+    }),BrowserAnimationsModule, ChartModule, LightboxModule],
   providers: [{provide: ConfigurationService, useClass: ConfigurationService},
               {provide: StorageProxy, useClass: StorageProxy},
               {provide: 'StorageService', useClass: StorageService},

@@ -1,4 +1,4 @@
-<div cols="4" rowHeight="100px">
+<!--
   <div
     *ngFor="let tile of experiences ; let i = index"
     [style.background]="tile.color">
@@ -10,4 +10,23 @@
     </a>
 
   </div>
+-->
+
+
+<div class="ui-g">
+  <div class="ui-g-6 ui-md-6 ui-lg-6">
+    <p-lightbox type="content">
+      <a class="group" href="#">
+        {{experiences[0].headTitle}}
+      </a>
+      <parcours-detail-component [exp]="experiences[0]"></parcours-detail-component>
+    </p-lightbox>
+  </div>
+  <div class="ui-g-6 ui-md-4 ui-lg-4">bla2</div>
+  <div class="ui-g-6 ui-md-2 ui-lg-2">ble3</div>
+  <div class="ui-g-6 ui-md-2 ui-lg-2">bla 4</div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
+  <div class="ui-g-6 ui-md-4 ui-lg-4">bla 5</div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
 </div>

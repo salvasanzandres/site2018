@@ -4,7 +4,8 @@ import {ConfigurationService} from "../../core/domain/services/configuration.ser
 
 @Component({
   selector: 'parcours-component',
-  templateUrl: './parcours.component.html'
+  templateUrl: './parcours.component.html',
+  styleUrls: ['./parcours.component.scss']
 })
 export class ParcoursComponent {
   public experiences: Experience[];

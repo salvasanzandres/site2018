@@ -1,6 +1,7 @@
-import {Component} from "@angular/core";
+import {Component, Input} from "@angular/core";
 import {ActivatedRoute, ParamMap} from "@angular/router";
 import 'rxjs/add/operator/switchMap';
+import {Experience} from "../../../core/domain/models/experience.model";
 
 
 @Component({
@@ -8,13 +9,10 @@ import 'rxjs/add/operator/switchMap';
   templateUrl: './parcours-detail.component.html'
 })
 export class ParcoursDetailComponent{
-  public heroes: any;
-  public selectedId: any;
 
-  constructor(private route: ActivatedRoute){
-    this.heroes = this.route.params.subscribe((params: any) => {
-      this.selectedId = params['id']
-      });
+  @Input() public exp: Experience;
+
+  constructor(){
 
   }
 
