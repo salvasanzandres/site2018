@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-import {WelcomeComponent} from "./pages/welcome/welcome.component";
+import {MeComponent} from "./pages/me/me.component";
 import {ParcoursComponent} from "./pages/parcours/parcours.component";
 import {NotFoundComponent} from "./pages/notFound/notFound.component";
 import {RouterModule, PreloadAllModules} from "@angular/router";
@@ -17,12 +17,13 @@ import {ProjectsComponent} from "./pages/projects/projects.component";
 import {ParcoursDetailComponent} from "./pages/parcours/detail/parcours-detail.component";
 import {ChartModule} from "primeng/components/chart/chart";
 import {LightboxModule} from "primeng/components/lightbox/lightbox";
+import {WelcomeComponent} from "./pages/welcome/welcome.component";
 
 
 
 @NgModule({
   declarations: [
-    AppComponent, WelcomeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent
+    AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent
   ],
   imports: [
     TranslateModule.forRoot({

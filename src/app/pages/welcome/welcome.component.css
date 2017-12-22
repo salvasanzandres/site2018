@@ -1,0 +1,18 @@
+.container{
+  background-color: black;
+  height:100vh;
+  color:whitesmoke;
+}
+.child-container{
+  margin-top: 200px;
+}
+.welcome-title{
+  font-size: 3em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .child-container {
+    margin-top: 50px;
+  }
+}
