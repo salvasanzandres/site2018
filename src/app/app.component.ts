@@ -12,7 +12,7 @@ export class AppComponent {
   public innerWidth: any;
   public selectedLang: string = 'fr';
   public isActiveBurger: boolean = false;
-  public routes: string[] = ['/welcome','/parcours','/projects'];
+  public routes: string[] = ['/me','/parcours','/projects'];
 
   constructor(private configurationService: ConfigurationService){}
 

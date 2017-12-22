@@ -1,12 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div id="myTopnav" [ngClass]="isActiveBurger ? 'topnav responsive' : 'topnav'">
-  <a routerLink="/welcome" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_presentation' | translate }}</a>
-  <a routerLink="/parcours" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_parcours' | translate }}</a>
-  <a routerLink="/projects" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_projects' | translate }}</a>
-  <a *ngFor="let ln of configurationService.avaliableLang" [class.selected]="ln == selectedLang"
-     (click)="changeLang(ln)">
+  <a *ngIf="isActiveBurger" routerLink="/me" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_presentation' | translate }}</a>
+  <a *ngIf="isActiveBurger" routerLink="/parcours" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_parcours' | translate }}</a>
+  <a *ngIf="isActiveBurger" routerLink="/projects" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_projects' | translate }}</a>
+  <span *ngIf="isActiveBurger">
+    <a *ngFor="let ln of configurationService.avaliableLang" [class.selected]="ln == selectedLang"
+       (click)="changeLang(ln)">
     {{ln}}
   </a>
+  </span>
+
   <a href="javascript:void(0);" class="icon" (click)="switchBurger()">&#9776;</a>
 </div>
 
