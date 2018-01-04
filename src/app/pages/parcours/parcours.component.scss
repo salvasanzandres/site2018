@@ -1,5 +1,12 @@
-div{
-  border: 1px solid blanchedalmond;
+.wrapper{
+  padding: 15px;
+  background-color: rgba(116, 255, 71, 0.5);
+  min-height: 100px;
+}
+a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 a.group{
 	color:white;
@@ -7,11 +14,15 @@ a.group{
 	text-decoration: none;
 }
 
-.ui-g-6{
-	padding: 50px;
-	 transform: rotate(0deg);
+
+.date-box{
+  background: #fff;
+  background: linear-gradient(180deg, transparent, red, transparent);
+  background-position: 50%;
+  background-repeat: repeat-y;
+  background-size: 2px auto;
 }
-.ui-g-6:hover,  .ui-g-12:hover, .ui-g-4:hover{
-background-color:gray;
-cursor:pointer
+.date-box p{
+  background-color: black;
+  text-align: center
 }

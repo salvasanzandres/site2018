@@ -82,14 +82,22 @@ ul li{list-style: none;
 p{
   text-align: justify;
 }
-.title-on-box{
-  font-size: 2em;
-}
 
-.parent-box {
-  padding: 5% 0;
-}
 
-.child-box {
-  padding: 10% 0;
+
+.contact-me p{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100px;
+}
+.contact-me .mail{
+  background-color: #dddddd;
+  min-height: 100px;
+}
+.wrapper{
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white
 }

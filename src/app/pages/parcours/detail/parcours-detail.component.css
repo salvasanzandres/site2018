@@ -3,5 +3,19 @@
 }
 
 img{
-	max-width: 100px
+	max-width: 100px;
+  float:left;
+  padding: 0px 20px 20px 20px;
+}
+
+p{
+  margin: 0px 20px 20px 20px;
+}
+
+.title_exp{
+  margin: 40px 0px 40px 0px;
+}
+.title_exp .text{
+  background-color: #dddddd;
+  min-height: 100px;
 }

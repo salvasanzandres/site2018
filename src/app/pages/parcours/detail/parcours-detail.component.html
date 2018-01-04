@@ -4,10 +4,26 @@
   <a routerLink="/parcours" routerLinkActive="active">{{ 'back_label_parcours' | translate }}</a>
   <a *ngIf="getNextId() >= 0"  [routerLink]="['/parcours', getNextId()]"> => </a>
 
-  <h2>{{exp.title | translate}}</h2>
-	<p>{{exp.description | translate}}</p>
-  <p>{{exp.tasks | translate}}</p>
-  <p>{{exp.tools | translate}}</p>
-	<img *ngFor="let img of exp.images" src="{{img}}" />
+
+  <div class="ui-g title_exp">
+    <div class="ui-g-12 ui-md-12 ui-lg-12 text">
+      <h2>{{exp.title | translate}}</h2>
+    </div>
+  </div>
+
+	<p><img *ngFor="let img of exp.images" src="{{img}}" /><span [innerHTML]="exp.description| translate"></span>
+  <div style="clear:both"></div>
+
+  <div class="ui-g contact-me">
+    <div class="ui-g-12 ui-md-4 ui-lg-4">
+      <div class="wrapper">  <p>{{exp.tasks | translate}}</p></div>
+    </div>
+    <div class="ui-g-12 ui-md-8 ui-lg-8">
+      <div class="wrapper"> <p>{{exp.tools | translate}}</p></div>
+    </div>
+  </div>
+
+
+
 </div>
 

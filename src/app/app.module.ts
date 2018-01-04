@@ -18,6 +18,7 @@ import {ParcoursDetailComponent} from "./pages/parcours/detail/parcours-detail.c
 import {ChartModule} from "primeng/components/chart/chart";
 import {LightboxModule} from "primeng/components/lightbox/lightbox";
 import {WelcomeComponent} from "./pages/welcome/welcome.component";
+import {InViewportModule} from "ng-in-viewport";
 
 
 
@@ -38,7 +39,7 @@ import {WelcomeComponent} from "./pages/welcome/welcome.component";
       enableTracing: false ,
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules
-    }),BrowserAnimationsModule, ChartModule, LightboxModule],
+    }),BrowserAnimationsModule, ChartModule, LightboxModule,  InViewportModule.forRoot()],
   providers: [{provide: ConfigurationService, useClass: ConfigurationService},
               {provide: StorageProxy, useClass: StorageProxy},
               {provide: 'StorageService', useClass: StorageService},

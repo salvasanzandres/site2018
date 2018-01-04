@@ -2,6 +2,7 @@ export class Experience{
   public id: number;
   public headTitle: string;
   public title: string;
+  public date: string;
   public description: string;
   public images: string[];
   public color: string;
@@ -15,10 +16,11 @@ export const EXPERIENCES: Experience[] = [
     'title': 'ald_title',
     'headTitle': 'ald_head_title',
     'description': 'ald_desc',
-    'images': ['./assets/img/ald/img1.png', './assets/img/ald/img2.png'],
+    'images': ['./assets/img/ald/img2.png'],
     'color': 'white',
     'tasks': 'ald_tasks',
-    'tools': 'ald_tools'
+    'tools': 'ald_tools',
+    'date':'2018'
   },
   {
     'id': 1,
@@ -28,7 +30,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'cea_tasks',
-    'tools': 'cea_tools'
+    'tools': 'cea_tools',
+    'date':'2018'
   },
   {
     'id': 2,
@@ -38,7 +41,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'ck_tasks',
-    'tools': 'ck_tools'
+    'tools': 'ck_tools',
+    'date':'2018'
   },
   {
     'id': 3,
@@ -48,7 +52,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'maz_tasks',
-    'tools': 'maz_tools'
+    'tools': 'maz_tools',
+    'date':'2018'
   },
   {
     'id': 4,
@@ -58,7 +63,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'pub_tasks',
-    'tools': 'pub_tools'
+    'tools': 'pub_tools',
+    'date':'2018'
   },
   {
     'id': 5,
@@ -68,7 +74,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'ft_tasks',
-    'tools': 'ft_tools'
+    'tools': 'ft_tools',
+    'date':'2018'
   },
   {
     'id': 6,
@@ -78,7 +85,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'vm_tasks',
-    'tools': 'vm_tools'
+    'tools': 'vm_tools',
+    'date':'2018'
   },
   {
     'id': 7,
@@ -88,7 +96,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'fr_tasks',
-    'tools': 'fr_tools'
+    'tools': 'fr_tools',
+    'date':'2018'
   },
   {
     'id': 8,
@@ -98,7 +107,8 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'eth_tasks',
-    'tools': 'eth_tools'
+    'tools': 'eth_tools',
+    'date':'2018'
   },
   {
     'id': 9,
@@ -108,6 +118,7 @@ export const EXPERIENCES: Experience[] = [
     'images': ['src/pepa.jpg'],
     'color': 'white',
     'tasks': 'disney_tasks',
-    'tools': 'disney_tools'
+    'tools': 'disney_tools',
+    'date':'2018'
   }
 ]

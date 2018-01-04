@@ -39,4 +39,10 @@ export class AppComponent {
   switchBurger(){
     this.isActiveBurger = ! this.isActiveBurger;
   }
+
+  pepa(ev: any){
+    if(ev.value){
+      console.log('visible');
+    }
+  }
 }
