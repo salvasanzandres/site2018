@@ -5,47 +5,109 @@ export class Experience{
   public description: string;
   public images: string[];
   public color: string;
+  public tasks: string;
+  public tools: string;
 }
 
-export const EXPERIENCES: Experience[]=[
+export const EXPERIENCES: Experience[] = [
   {
-    'id':1,
-    'title':'hello title',
-    'headTitle':'hello',
-    'description':'this is desc',
-    'images':['src/pepa.jpg'],
-    'color':"white"
+    'id': 0,
+    'title': 'ald_title',
+    'headTitle': 'ald_head_title',
+    'description': 'ald_desc',
+    'images': ['./assets/img/ald/img1.png', './assets/img/ald/img2.png'],
+    'color': 'white',
+    'tasks': 'ald_tasks',
+    'tools': 'ald_tools'
   },
   {
-    'id':2,
-    'title':'hello title 2',
-    'headTitle':'hello',
-    'description':'this is desc2',
-    'images':['src/pepa.jpg'],
-    'color':"white"
+    'id': 1,
+    'title': 'cea_title',
+    'headTitle': 'cea_head_title',
+    'description': 'cea_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'cea_tasks',
+    'tools': 'cea_tools'
   },
   {
-    'id':3,
-    'title':'hello title 2',
-    'headTitle':'hello',
-    'description':'this is desc2',
-    'images':['src/pepa.jpg'],
-    'color':"white"
+    'id': 2,
+    'title': 'ck_title',
+    'headTitle': 'ck_head_title',
+    'description': 'ck_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'ck_tasks',
+    'tools': 'ck_tools'
   },
   {
-    'id':4,
-    'title':'hello title 2',
-    'headTitle':'hello',
-    'description':'this is desc2',
-    'images':['src/pepa.jpg'],
-    'color':"white"
+    'id': 3,
+    'title': 'maz_title',
+    'headTitle': 'maz_head_title',
+    'description': 'maz_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'maz_tasks',
+    'tools': 'maz_tools'
   },
   {
-    'id':5,
-    'title':'hello title 2',
-    'headTitle':'hello',
-    'description':'this is desc2',
-    'images':['src/pepa.jpg'],
-    'color':"white"
+    'id': 4,
+    'title': 'pub_title',
+    'headTitle': 'pub_head_title',
+    'description': 'pub_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'pub_tasks',
+    'tools': 'pub_tools'
+  },
+  {
+    'id': 5,
+    'title': 'ft_title',
+    'headTitle': 'ft_head_title',
+    'description': 'ft_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'ft_tasks',
+    'tools': 'ft_tools'
+  },
+  {
+    'id': 6,
+    'title': 'vm_title',
+    'headTitle': 'vm_head_title',
+    'description': 'vm_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'vm_tasks',
+    'tools': 'vm_tools'
+  },
+  {
+    'id': 7,
+    'title': 'fr_title',
+    'headTitle': 'fr_head_title',
+    'description': 'fr_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'fr_tasks',
+    'tools': 'fr_tools'
+  },
+  {
+    'id': 8,
+    'title': 'eth_title',
+    'headTitle': 'eth_head_title',
+    'description': 'eth_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'eth_tasks',
+    'tools': 'eth_tools'
+  },
+  {
+    'id': 9,
+    'title': 'disney_title',
+    'headTitle': 'disney_head_title',
+    'description': 'disney_desc',
+    'images': ['src/pepa.jpg'],
+    'color': 'white',
+    'tasks': 'disney_tasks',
+    'tools': 'disney_tools'
   }
 ]

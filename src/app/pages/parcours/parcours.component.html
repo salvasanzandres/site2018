@@ -1,39 +1,55 @@
-<!--
-  <div
-    *ngFor="let tile of experiences ; let i = index"
-    [style.background]="tile.color">
-    {{tile.title}}  {{tile.description}}
-
-
-    <a [routerLink]="['/parcours', tile.id]">
-     click - {{i + 1}}
-    </a>
-
-  </div>
--->
-
-
 <div class="ui-g">
   <div class="ui-g-6 ui-md-6 ui-lg-6">
-    <p-lightbox type="content">
-      <a class="group" href="#">
-        {{experiences[0].headTitle}}
-      </a>
-      <parcours-detail-component [exp]="experiences[0]"></parcours-detail-component>
-      <div class="ui-lightbox-close">X</div>
-    </p-lightbox>
+    <a [routerLink]="['/parcours', experiences[0].id]">
+       {{experiences[0].headTitle | translate}}
+    </a>
   </div>
-  <div class="ui-g-6 ui-md-4 ui-lg-4">bla2</div>
-  <div class="ui-g-6 ui-md-2 ui-lg-2">ble3</div>
-  <div class="ui-g-6 ui-md-2 ui-lg-2">bla 4</div>
-  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
-  <div class="ui-g-6 ui-md-4 ui-lg-4">bla 5</div>
-  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
-  <div class="ui-g-6 ui-md-6 ui-lg-6">bla 5</div>
+  <div class="ui-g-6 ui-md-4 ui-lg-4">
+    <a [routerLink]="['/parcours', experiences[1].id]">
+      {{experiences[1].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-6 ui-md-2 ui-lg-2">
+    <a [routerLink]="['/parcours', experiences[2].id]">
+      {{experiences[2].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">
+    <a [routerLink]="['/parcours', experiences[3].id]">
+      {{experiences[3].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">
+    <a [routerLink]="['/parcours', experiences[4].id]">
+      {{experiences[4].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-12 ui-md-12 ui-lg-12">
+    <a [routerLink]="['/parcours', experiences[5].id]">
+      {{experiences[5].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">
+    <a [routerLink]="['/parcours', experiences[6].id]">
+      {{experiences[6].headTitle | translate}}
+    </a>
+  </div>
+  <div class="ui-g-6 ui-md-6 ui-lg-6">
+    <a [routerLink]="['/parcours', experiences[7].id]">
+      {{experiences[7].headTitle | translate}}
+    </a>
+  </div>
   <div class="ui-g-8 ui-g-nopad">
-    <div class="ui-g-6">6</div>
-    <div class="ui-g-6">6</div>
-    <div class="ui-g-12">12</div>
+    <div class="ui-g-6">
+      <a [routerLink]="['/parcours', experiences[8].id]">
+        {{experiences[8].headTitle | translate}}
+      </a>
+    </div>
+    <div class="ui-g-6">
+      <a [routerLink]="['/parcours', experiences[9].id]">
+        {{experiences[9].headTitle | translate}}
+      </a>
+    </div>
   </div>
   <div class="ui-g-4">4</div>
 </div>

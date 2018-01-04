@@ -2,7 +2,8 @@ import {Component} from "@angular/core";
 
 @Component({
     selector: 'me-component',
-    templateUrl: 'me.component.html'
+    templateUrl: 'me.component.html',
+    styleUrls: ['./me.component.css']
 })
 export class MeComponent {
   data: any;
@@ -28,17 +29,17 @@ export class MeComponent {
         }]
     };
     this.data2 = {
-      labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+      labels: ['January', 'February', 'March', 'April', 'May'],
       datasets: [
         {
           label: 'First Dataset',
-          data: [65, 59, 80, 81, 56, 55, 40],
+          data: [65, 59, 80, 81, 56],
           fill: false,
           borderColor: '#4bc0c0'
         },
         {
           label: 'Second Dataset',
-          data: [28, 48, 40, 19, 86, 27, 90],
+          data: [28, 48, 40, 19, 86],
           fill: false,
           borderColor: '#565656'
         }

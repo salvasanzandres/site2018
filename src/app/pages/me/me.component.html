@@ -1,17 +1,36 @@
 <div class="ui-g">
-  <div class="ui-g-12 ui-md-6 ui-lg-6 parent-box"> <p-chart class="child-box" type="doughnut" [data]="data"></p-chart></div>
-  <div class="ui-g-12 ui-md-6 ui-lg-6"><p>{{ 'presentation_text' | translate }}</p></div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4 parent-box">
-    <div class="title-on-box child-box">Experience</div>
+  <div class="ui-g-12 ui-md-6 ui-lg-6 parent-box">
+    <p>{{ 'presentation_text' | translate }}</p>
+  </div>
+  <div class="ui-g-12 ui-md-6 ui-lg-6">
+    <div class="ui-g">
+      <div class="ui-g-12 ui-md-12 ui-lg-12 parent-box">
+        <p-chart type="bar" [data]="data3"></p-chart>
+      </div>
+      <div class="ui-g-12 ui-md-12 ui-lg-12 parent-box title-on-box">
+        PARCOURS
+      </div>
+    </div>
   </div>
   <div class="ui-g-12 ui-md-4 ui-lg-4 parent-box">
-    <p-lightbox class="child-box" type="content">
-      <a class="group " href="#">
-        Watch Video
-      </a>
-      <div style="background-color: #f2f2f2">this is content</div>
-    </p-lightbox>
+    <div class="title-on-box child-box">EXPERIENCE</div>
   </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4"><p-chart type="bar" [data]="data3"></p-chart></div>
+  <div class="ui-g-12 ui-md-4 ui-lg-4 parent-box">
+    <div class="ui-g">
+      <div class="ui-g-12 ui-md-12 ui-lg-12 parent-box">
+        <ul>
+          <li>ANGULAR X</li>
+          <li>PHP OOP</li>
+          <li>RUBY ON RAILS</li>
+        </ul>
+      </div>
+      <div class="ui-g-12 ui-md-12 ui-lg-12 parent-box title-on-box">
+        PROJETS
+      </div>
+    </div>
+  </div>
+  <div class="ui-g-12 ui-md-4 ui-lg-4">
+    <p-chart class="child-box" type="doughnut" [data]="data"></p-chart>
+  </div>
 </div>
 

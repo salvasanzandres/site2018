@@ -1,9 +1,10 @@
 html{
-  background-color: #333333;
+  background-color: black;
 }
 body{
   font-family: "Lucida Console", Courier, monospace;
   margin: 0px;
+  color:white;
 }
 ul li{list-style: none;
       cursor:pointer}
@@ -59,7 +60,7 @@ ul li{list-style: none;
 
 
   .topnav a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 

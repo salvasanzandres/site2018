@@ -1,5 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div id="myTopnav" [ngClass]="isActiveBurger ? 'topnav responsive' : 'topnav'">
+   <a href="javascript:void(0);" class="icon" (click)="switchBurger()">&#9776;</a>
   <a *ngIf="isActiveBurger" routerLink="/me" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_presentation' | translate }}</a>
   <a *ngIf="isActiveBurger" routerLink="/parcours" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_parcours' | translate }}</a>
   <a *ngIf="isActiveBurger" routerLink="/projects" routerLinkActive="active" (click)="switchBurger()">{{ 'menu_title_projects' | translate }}</a>
@@ -10,7 +11,7 @@
   </a>
   </span>
 
-  <a href="javascript:void(0);" class="icon" (click)="switchBurger()">&#9776;</a>
+ 
 </div>
 
 <div style="text-align:center">
