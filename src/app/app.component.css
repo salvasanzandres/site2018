@@ -1,5 +1,5 @@
 html{
-  background-color: black;
+  background-color: white;
 }
 body{
   font-family: "Lucida Console", Courier, monospace;
@@ -93,11 +93,19 @@ p{
   height: 100px;
 }
 .contact-me .mail{
-  background-color: #dddddd;
+  background-color: #578CA9;
   min-height: 100px;
+  color:white;
+  font-size: 4em;
 }
 .wrapper{
   margin: 20px;
   padding: 20px;
-  border: 1px solid white
+  border: 1px solid white;
+}
+.box-bottom{
+  background-color:#F3CF55;
+  color:white;
+  font-size: 30px;
+  height: 150px;
 }

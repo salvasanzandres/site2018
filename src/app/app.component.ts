@@ -13,6 +13,7 @@ export class AppComponent {
   public selectedLang: string = 'fr';
   public isActiveBurger: boolean = false;
   public routes: string[] = ['/me','/parcours','/projects'];
+  public incrementExp :boolean = false;
 
   constructor(private configurationService: ConfigurationService){}
 
@@ -41,8 +42,8 @@ export class AppComponent {
   }
 
   pepa(ev: any){
-    if(ev.value){
-      console.log('visible');
+    if(ev.value && !this.incrementExp){
+     this.incrementExp = true;
     }
   }
 }

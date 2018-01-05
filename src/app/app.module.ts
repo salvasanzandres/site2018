@@ -19,12 +19,14 @@ import {ChartModule} from "primeng/components/chart/chart";
 import {LightboxModule} from "primeng/components/lightbox/lightbox";
 import {WelcomeComponent} from "./pages/welcome/welcome.component";
 import {InViewportModule} from "ng-in-viewport";
+import {CounterComponent} from "./pages/shared/counter/counter.component";
 
 
 
 @NgModule({
   declarations: [
-    AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent
+    AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent,
+    CounterComponent
   ],
   imports: [
     TranslateModule.forRoot({

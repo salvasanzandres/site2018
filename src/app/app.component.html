@@ -22,15 +22,15 @@
     <p>CONTACT ME</p>
   </div>
   <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper"><p>AAA</p></div>
+    <div class="wrapper box-bottom"><p>AAA</p></div>
   </div>
   <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper"><p>CCC</p></div>
+    <div class="wrapper box-bottom"><app-counter *ngIf="incrementExp" [max]="14" [libelle]="'proj reussis'" ></app-counter></div>
   </div>
   <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper" in-viewport
+    <div class="wrapper box-bottom" in-viewport
          [inViewportOptions]="{ partial: false }"
-         (inViewportAction)="pepa($event)"><p >CCC</p></div>
+         (inViewportAction)="pepa($event)"><app-counter *ngIf="incrementExp" [max]="10" [libelle]="'proj reussis'"></app-counter></div>
   </div>
 </div>
 
