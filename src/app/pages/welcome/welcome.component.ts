@@ -1,4 +1,5 @@
-import {Component} from "@angular/core";
+import {Component} from '@angular/core';
+import {ConfigurationService} from '../../core/domain/services/configuration.service';
 
 @Component({
   selector: 'welcome-component',
@@ -6,8 +7,11 @@ import {Component} from "@angular/core";
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent {
+  public isMobile: boolean = false;
 
-
-  constructor() {}
+  constructor(private configurationService: ConfigurationService) {
+    this.isMobile = this.configurationService.isPhone;
+    console.log( this.isMobile)
+  }
 
 }

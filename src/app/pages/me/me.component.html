@@ -1,18 +1,37 @@
+
 <div class="ui-g main-boxes">
-  <div class="ui-g-12 ui-md-12 ui-lg-12">
-    <div class="wrapper box-me">BIG BID</div>
+  <div class="ui-g-12 ui-md-12 ui-lg-12" style="  padding: 0 !important;">
+    <div class=" box-me">
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-12 ui-lg-12 title-first">
+          LIBRARY
+<hr />
+        </div>
+        <div class="ui-g-12 ui-md-6 ui-lg-6 personal-data">
+          06 49 86 45 37<br />
+          Paris 75002
+        </div>
+        <div class="ui-g-12 ui-md-6 ui-lg-6 about-me">
+          <p>{{ 'presentation_text' | translate }}</p>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="ui-g-12 ui-md-6 ui-lg-6 parent-box">
-    <div class="wrapper box-present"><p>{{ 'presentation_text' | translate }}</p></div>
+    <div class="wrapper box-present">
+      <h1>Salva Sanz bla bla</h1>
+      <p>{{ 'presentation_text' | translate }}</p></div>
   </div>
   <div class="ui-g-12 ui-md-6 ui-lg-6">
         <p-chart type="bar" [data]="data3"></p-chart>
   </div>
-  <div class="ui-g-6 ui-md-8 ui-lg-8">
-    <div class="wrapper box-me">EXPERIENCE</div>
+  <div class="ui-g-12 ui-md-8 ui-lg-8">
+    <div class="wrapper box-me">
+      <app-definition [text]="'[ C ] abbreviation for curriculum vitae'" [word]="'CV'"></app-definition>
+    </div>
   </div>
-  <div class="ui-g-6 ui-md-4 ui-lg-4">
-    <div class="wrapper box-me">CV</div>
+  <div class="ui-g-12 ui-md-4 ui-lg-4">
+      <app-definition [text]="'[ C ] abbreviation for curriculum vitae'" [word]="'CV'"></app-definition>
   </div>
 </div>
-
+<app-footer></app-footer>

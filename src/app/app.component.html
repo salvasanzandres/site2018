@@ -17,21 +17,5 @@
 <div style="text-align:center">
   <router-outlet></router-outlet>
 </div>
-<div class="ui-g contact-me">
-  <div class="ui-g-12 ui-md-12 ui-lg-12 mail">
-    <p>CONTACT ME</p>
-  </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper box-bottom"><p>AAA</p></div>
-  </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper box-bottom"><app-counter *ngIf="incrementExp" [max]="14" [libelle]="'proj reussis'" ></app-counter></div>
-  </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
-    <div class="wrapper box-bottom" in-viewport
-         [inViewportOptions]="{ partial: false }"
-         (inViewportAction)="pepa($event)"><app-counter *ngIf="incrementExp" [max]="10" [libelle]="'proj reussis'"></app-counter></div>
-  </div>
-</div>
 
 

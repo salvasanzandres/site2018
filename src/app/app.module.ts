@@ -20,13 +20,15 @@ import {LightboxModule} from "primeng/components/lightbox/lightbox";
 import {WelcomeComponent} from "./pages/welcome/welcome.component";
 import {InViewportModule} from "ng-in-viewport";
 import {CounterComponent} from "./pages/shared/counter/counter.component";
+import {FooterComponent} from './pages/shared/footer/footer.component';
+import {DefinitionComponent} from './pages/shared/definition/definition.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent,
-    CounterComponent
+    CounterComponent, FooterComponent,DefinitionComponent
   ],
   imports: [
     TranslateModule.forRoot({

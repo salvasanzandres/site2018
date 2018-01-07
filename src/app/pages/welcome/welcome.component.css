@@ -1,20 +1,13 @@
-.container{
-  height:100vh;
-  background-image: url('../../../assets/img/exemple.jpg');
-  background-size: cover;
-  width: 100%;
-}
-.child-container{
-  margin-top: 200px;
-}
-.welcome-title{
-  font-size: 3em;
-}
 
+.responsive-image{
+  width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 600px) {
-  .child-container {
-    margin-top: 50px;
+  .responsive-image{
+    width: 100%;
+    height: auto;
   }
-}
 
+}

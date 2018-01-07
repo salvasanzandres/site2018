@@ -1,13 +1,7 @@
-  <div class="ui-g container">
-    <div class="ui-g-6 ui-md-6 ui-lg-6"><div class="child-container">
-      <div class="welcome-title">
-        {{ 'welcome_title' | translate }}
-      </div>
-      <p>
-        {{ 'welcome_text' | translate }}
-      </p>
-    </div>
-    </div>
-    <div class="ui-g-6 ui-md-6 ui-lg-6"><div class="child-container">HOLA SOY TU</div></div>
-  </div>
+
+<a routerLink="/me" routerLinkActive="active"
+  ><img *ngIf=" !isMobile" class ="responsive-image" src="./assets/img/test.jpg" />
+  <img *ngIf=" isMobile" class ="responsive-image" src="./assets/img/test_m.jpg" />
+</a>
+
 
