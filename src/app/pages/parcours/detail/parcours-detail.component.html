@@ -6,21 +6,29 @@
 
 
   <div class="ui-g title_exp">
-    <div class="ui-g-12 ui-md-12 ui-lg-12 text">
+    <div class="ui-g-6 ui-md-6 ui-lg-6 book-left">
       <h2>{{exp.title | translate}}</h2>
     </div>
+    <div class="ui-g-6 ui-md-6 ui-lg-6 book-right">
+      <span [innerHTML]="exp.description| translate"></span>
+    </div>
   </div>
 
-	<p><img *ngFor="let img of exp.images" src="{{img}}" /><span [innerHTML]="exp.description| translate"></span>
-  <div style="clear:both"></div>
+
+
+
+
 
   <div class="ui-g contact-me">
-    <div class="ui-g-12 ui-md-4 ui-lg-4">
-      <div class="wrapper">  <p>{{exp.tasks | translate}}</p></div>
+    <div class="ui-g-12 ui-md-12 ui-lg-12">
+      <div class="wrapper">  <app-tasks></app-tasks></div>
     </div>
-    <div class="ui-g-12 ui-md-8 ui-lg-8">
-      <div class="wrapper"> <p>{{exp.tools | translate}}</p></div>
+    <div class="ui-g-12 ui-md-6 ui-lg-6">
+      <div class="wrapper">  <app-tasks></app-tasks></div>
+    </div>
+    <div class="ui-g-12 ui-md-6 ui-lg-6">
+      <div class="wrapper">  <app-tasks></app-tasks></div>
     </div>
   </div>
-</div>
+
 <app-footer></app-footer>
