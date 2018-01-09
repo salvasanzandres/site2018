@@ -1,27 +1,28 @@
 .wrapper{
-  padding: 15px;
-  background-color: #EFD1C6;
+  padding: 0px !important;
+  margin: 15px 0px 20px 0px;
+  text-align: left;
 }
 a{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+
+  font-family: 'Bellefair', serif;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color:black;
 }
-a.group{
-	color:white;
-	font-size: 25px;
-	text-decoration: none;
-}
+
 
 
 .date-box{
-  background: #fff;
-  background: linear-gradient(180deg, transparent, red, transparent);
+  background: #EFD1C6;
+  background: linear-gradient(180deg, transparent, #EFD1C6, transparent);
   background-position: 50%;
   background-repeat: repeat-y;
   background-size: 2px auto;
 }
 .date-box p{
-  background-color: black;
-  text-align: center
+  background-color: #EFD1C6;
+  text-align: center;
+  color:black;
 }

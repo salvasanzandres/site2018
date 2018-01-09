@@ -22,13 +22,14 @@ import {InViewportModule} from "ng-in-viewport";
 import {CounterComponent} from "./pages/shared/counter/counter.component";
 import {FooterComponent} from './pages/shared/footer/footer.component';
 import {DefinitionComponent} from './pages/shared/definition/definition.component';
+import {TasksComponent} from "./pages/shared/tasks/tasks.component";
 
 
 
 @NgModule({
   declarations: [
     AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent,
-    CounterComponent, FooterComponent,DefinitionComponent
+    CounterComponent, FooterComponent,DefinitionComponent, TasksComponent
   ],
   imports: [
     TranslateModule.forRoot({

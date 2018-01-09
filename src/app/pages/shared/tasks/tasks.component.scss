@@ -1,0 +1,23 @@
+.tasks-wrapper{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.inner-wrapper{
+  border: 2px solid black;
+  color: black;
+  padding: 20px;
+}
+
+ul{
+  list-style-type: circle;
+  font-size: 20px;
+  font-family: 'Bellefair', serif;
+  padding: 5px;
+  margin:0px auto;
+  text-align: justify;
+}
+
+li:before {
+  content: "→ ";
+}
