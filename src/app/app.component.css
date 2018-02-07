@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Gravitas+One|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 html{
   background-color: white;
 }
@@ -21,6 +23,7 @@ ul li{list-style: none;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index: 5;
 }
 
 /* Style the links inside the navigation bar */
@@ -33,7 +36,6 @@ ul li{list-style: none;
   padding: 20px 38px;
   text-decoration: none;
   font-size: 12px;
-  height: 23px;
   text-transform: uppercase;
 }
 
@@ -83,6 +85,10 @@ p{
   text-align: justify;
 }
 
+.row{
+  margin-right: 0px;
+  margin-left:0px;
+}
 
 
 

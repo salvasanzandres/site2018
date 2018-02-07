@@ -15,8 +15,6 @@ import {HttpClient, HttpClientModule} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {ProjectsComponent} from "./pages/projects/projects.component";
 import {ParcoursDetailComponent} from "./pages/parcours/detail/parcours-detail.component";
-import {ChartModule} from "primeng/components/chart/chart";
-import {LightboxModule} from "primeng/components/lightbox/lightbox";
 import {WelcomeComponent} from "./pages/welcome/welcome.component";
 import {InViewportModule} from "ng-in-viewport";
 import {CounterComponent} from "./pages/shared/counter/counter.component";
@@ -24,13 +22,14 @@ import {FooterComponent} from './pages/shared/footer/footer.component';
 import {DefinitionComponent} from './pages/shared/definition/definition.component';
 import {TasksComponent} from "./pages/shared/tasks/tasks.component";
 import {NiceBoxComponent} from "./pages/shared/nice-box/nice-box.component";
+import {MatIconModule} from '@angular/material';
 
 
 
 @NgModule({
   declarations: [
     AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent,
-    CounterComponent, FooterComponent,DefinitionComponent, TasksComponent, NiceBoxComponent
+    CounterComponent, FooterComponent, DefinitionComponent, TasksComponent, NiceBoxComponent
   ],
   imports: [
     TranslateModule.forRoot({
@@ -45,7 +44,7 @@ import {NiceBoxComponent} from "./pages/shared/nice-box/nice-box.component";
       enableTracing: false ,
       useHash: Boolean(history.pushState) === false,
       preloadingStrategy: PreloadAllModules
-    }),BrowserAnimationsModule, ChartModule, LightboxModule,  InViewportModule.forRoot()],
+    }), BrowserAnimationsModule,  InViewportModule.forRoot(), MatIconModule],
   providers: [{provide: ConfigurationService, useClass: ConfigurationService},
               {provide: StorageProxy, useClass: StorageProxy},
               {provide: 'StorageService', useClass: StorageService},

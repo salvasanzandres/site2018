@@ -1,14 +1,14 @@
-<div class="ui-g contact-me">
-  <div class="ui-g-12 ui-md-12 ui-lg-12 mail">
+<div class="row contact-me">
+  <div class="col-xs-12 col-md-12 mail">
     <p>CONTACT ME</p>
   </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
+  <div class="col-xs-12 col-md-4">
     <app-definition [text]="'(n,) A late dinner.'" [word]="'Linner'"></app-definition>
   </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
+  <div class="col-xs-12 col-md-4">
     <div class="wrapper box-bottom"><app-counter *ngIf="incrementExp" [max]="14" [libelle]="'proj reussis'" ></app-counter></div>
   </div>
-  <div class="ui-g-12 ui-md-4 ui-lg-4">
+  <div class="col-xs-12 col-md-4">
     <div class="wrapper box-bottom" in-viewport
          [inViewportOptions]="{ partial: false }"
          (inViewportAction)="pepa($event)"><app-counter *ngIf="incrementExp" [max]="10" [libelle]="'proj reussis'"></app-counter></div>
