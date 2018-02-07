@@ -1,0 +1,32 @@
+
+.nice-box-wrapper{
+  height: 100%;
+  width: 100%;
+}
+
+.inner-wrapper{
+  color: black;
+  padding: 10px;
+  position: relative;
+  float: left;
+  cursor: pointer;
+}
+
+.inner-wrapper:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,255,255, 0.5);
+  -moz-transition: background .3s linear;
+  -webkit-transition: background .3s linear;
+  -o-transition: background .3s linear;
+  transition: background .3s linear;
+}
+
+.inner-wrapper:hover:before {
+  background: none;
+}

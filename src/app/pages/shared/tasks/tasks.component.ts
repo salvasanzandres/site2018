@@ -8,6 +8,7 @@ import {Component, Input} from "@angular/core";
 
 export class TasksComponent{
   @Input() tasks: string[] ;
+  @Input() title: string;
 
   constructor(){}
 }

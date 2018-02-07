@@ -6,7 +6,71 @@
   "presentation_text": "consulens in commune advocatos palatinarum primos scholarum adlocutus est mollius docens nec decere haec fieri nec prodesse addensque vocis obiurgatorio sonu quod si id placeret, post statuas Constantii deiectas super adimenda vita praefecto conveniet securius cogitari.Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.",
   "welcome_title":"Hello its me...",
   "welcome_text": "Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus......",
+  "title_tools": "Outils et Langages",
+  "title_task" : "Tâches en detail",
+
+
   "ald_title": "ALD AUTOMOTIVE",
   "ald_head_title": "ALD AUTOMOTIVE GROUPE SG",
-  "ald_desc": "this is bla bla bla Hinc ille commotus ut iniusta perferens et indigna praefectihis is bla bla bla Hinc ille commotus ut iniusta perferens et indignahis is bla bla bla Hinc  <br />ille commotus ut iniusta perferens et inddignahis is bla bla bla Hinc ille commotus ut iniusta perferens et inddignahis is bla bla bla Hinc <br /> ille commotus ut iniusta perferens et indigna custodiam protectoribus...... Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus......"
+  "ald_date": "mai 2017 à mars 2018",
+  "ald_stitle": "Lead Tech Angular @ ALD AUTOMOTIVE",
+  "ald_desc": "Développement en Angular 4 / Typescript et Ionic 3 du projet My ALD de l’app hybride Ios / Android et la version desktop en environnement Agile.",
+  "ald_tasks_1": "Développement des pages assistance, véhicule, glovybox et pages publiques dans un environnent CI.",
+  "ald_tasks_2": "Test de la plateforme sur tous les supports.",
+  "ald_tasks_3": "Organisation des présentations d’avancement aux utilisateurs et marketing.",
+  "ald_tasks_4": "TMA applicatif.",
+  "ald_tasks_5": "Préparation des POC pour les nouvelles features et besoins du métier.",
+  "ald_tasks_6": "Suivi du déploiement et intégration de la solution finalisée dans l’environnement client.",
+  "ald_lang": "Angular 4, Ionic 3, Cordova, Angular Material, npm, ",
+  "ald_tools":"GIT Flow, ng cli TFS Microsoft, Webpack, Sass, Augury, Testflight, Xcode, Intelij, API REST, Swagger, Postman",
+
+
+  "cea_title": "CEA TRAASER",
+  "cea_head_title": "CEA TRAASER",
+  "cea_date": "6/2016 – 5/2017",
+  "cea_stitle": "Lead Tech Angular @ CEA",
+  "cea_desc": "Développement en Angular 2 / Typescript d’une application full front qui permet d’afficher et parcourir des séquences de données de très grande taille. Un certain nombre d’actions et calculs sont réalisées sur les données afin de les afficher et de les traiter correctement.Echanger avec le client afin de comprendre le besoin fonctionnel et identifier lameilleure solution technique (architecture, components, services...).",
+  "cea_tasks_1": "Mise en place des environnements nécessaires et des outils de travail.",
+  "cea_tasks_2": "Développement des fonctionnalités demandées par le client en méthode Agile etréalisation de tests unitaires.",
+  "cea_tasks_3": "Réalisation de tests de charge sur des serveurs distants avec des volumétries de données de taille représentative.",
+  "cea_tasks_4": "Organisation des réunions avec le client (documents de support, préparation des comptes rendus, mise à jour des tableaux de bord).",
+  "cea_tasks_5": "Codage des tests automatisés avec Jasmine.",
+  "cea_tasks_6": "Déploiement Webpack et intégration de la solution finalisée dans l’environnement client.",
+  "cea_lang": "Angular 2, Ionic 3, Cordova, Angular Material, npm, typescript, Typescript ",
+  "cea_tools":"GIT, Karma, jasmine, ng cli, Webpack, Sass, Augury, API REST, Postman",
+
+
+
+  "ck_title": "Cross Knowledge",
+  "ck_head_title": "Développeur Intégrateur @ CrossKnowledge",
+  "ck_date": "9/2015 – 5/2016 ",
+  "ck_stitle": "Développeur Intégrateur @ CrossKnowledge",
+  "ck_desc": "Renforcer l’équipe intégration : participation à l’amélioration continue des services proposés aux clients de CrossKnowledge et développement et intégration de Yammer et chatter sur la plateforme LMS en angular js..Echanger avec les consultants supports, les chefs de projet, les intégrateurs, les designers et les développeurs.Conception et développement du widget Yammer, Google + et Chatter sur le LMS. Le widget interroge l’API afin d’afficher les informations de l’utilisateur et lui permettre de poster des commentaires et de l’open graph. Le widget est chargé sur la plateforme LMS.",
+  "ck_tasks_1":"Echanger avec les consultants supports, les chefs de projet, les intégrateurs, les designers et les développeurs.",
+  "ck_tasks_2":"Conception et développement du widget Yammer, Google + et Chatter sur le LMS. Le widget interroge l’API afin d’afficher les informations de l’utilisateur et lui permettre de poster des commentaires et de l’open graph. Le widget est chargé sur la plateforme LMS.",
+  "ck_tasks_3": "Organiser des Ateliers intégration chez les clients de CrossKnowledge.",
+  "ck_tasks_4": "Présenter les nouveaux releases auprès de différentes équipes Crossknowlodge. Faire des propositions d’améliorations et les reporter dans le backlog.",
+  "ck_tasks_5": "Mettre à disposition des parcours via SCORM connecteur pour le LMS client Gestion des projets intégration d’un portefeuille de clients",
+  "ck_tasks_6": "Développement en PHP de solutions intégration spécifiques pour certains clients.",
+  "ck_tasks_7": "Traduction en anglais de toutes les procédures d’intégration",
+  "ck_tasks_8": "Tester les contenus SCORM/AICC et certifier les contenus tiers",
+  "ck_lang": "AngularJS, typescript, Google API, Yammer API, Putty, Js, php5",
+  "ck_tools":"SVN, grunt, systemjs, bootstrap, npm, Navigateurs Web, Mercurial, Shell"
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+

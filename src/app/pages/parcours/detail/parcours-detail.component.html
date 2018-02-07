@@ -2,12 +2,13 @@
 
   <a *ngIf="getPreviousId() >=0" [routerLink]="['/parcours', getPreviousId()]"> <= </a>
   <a routerLink="/parcours" routerLinkActive="active">{{ 'back_label_parcours' | translate }}</a>
-  <a *ngIf="getNextId() >= 0"  [routerLink]="['/parcours', getNextId()]"> => </a>
+  <a *ngIf="getNextId() >= 0" [routerLink]="['/parcours', getNextId()]"> => </a>
 
 
   <div class="ui-g title_exp">
     <div class="ui-g-6 ui-md-6 ui-lg-6 book-left">
       <h2>{{exp.title | translate}}</h2>
+      <i>{{exp.date | translate}}</i>
     </div>
     <div class="ui-g-6 ui-md-6 ui-lg-6 book-right">
       <span [innerHTML]="exp.description| translate"></span>
@@ -15,20 +16,19 @@
   </div>
 
 
-
-
-
-
   <div class="ui-g contact-me">
     <div class="ui-g-12 ui-md-12 ui-lg-12">
-      <div class="wrapper">  <app-tasks></app-tasks></div>
-    </div>
-    <div class="ui-g-12 ui-md-6 ui-lg-6">
-      <div class="wrapper">  <app-tasks></app-tasks></div>
-    </div>
-    <div class="ui-g-12 ui-md-6 ui-lg-6">
-      <div class="wrapper">  <app-tasks></app-tasks></div>
+      <div class="wrapper">
+        <app-tasks [tasks]="experiences[0].tasks" [title]="'title_task'"></app-tasks>
+      </div>
+      <div class="ui-g-12 ui-md-6 ui-lg-6">
+        <div class="wrapper">
+          <app-tasks [tasks]="experiences[0].tools" [title]="'title_tools'"></app-tasks>
+        </div>
+      </div>
+      <div class="ui-g-12 ui-md-6 ui-lg-6">
+          <app-nice-box [text]="'[ C ] abbreviation for curriculum vitae'" [word]="'CV'"></app-nice-box>
+      </div>
     </div>
   </div>
-
-<app-footer></app-footer>
+    <app-footer></app-footer>

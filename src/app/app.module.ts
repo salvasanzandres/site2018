@@ -23,13 +23,14 @@ import {CounterComponent} from "./pages/shared/counter/counter.component";
 import {FooterComponent} from './pages/shared/footer/footer.component';
 import {DefinitionComponent} from './pages/shared/definition/definition.component';
 import {TasksComponent} from "./pages/shared/tasks/tasks.component";
+import {NiceBoxComponent} from "./pages/shared/nice-box/nice-box.component";
 
 
 
 @NgModule({
   declarations: [
     AppComponent, WelcomeComponent, MeComponent, ParcoursComponent, NotFoundComponent, ProjectsComponent, ParcoursDetailComponent,
-    CounterComponent, FooterComponent,DefinitionComponent, TasksComponent
+    CounterComponent, FooterComponent,DefinitionComponent, TasksComponent, NiceBoxComponent
   ],
   imports: [
     TranslateModule.forRoot({

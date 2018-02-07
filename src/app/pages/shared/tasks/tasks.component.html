@@ -1,12 +1,11 @@
 <div class="tasks-wrapper">
   <div class="inner-wrapper">
-    <h2>Esto es el que jo pense de...</h2>
+    <h2>{{title | translate}}</h2>
     <hr />
   <ul>
-    <li>fer la decoracio de nadal</li>
-    <li>netejar despatx a l'any nou</li>
-    <li>actualisar son parcours</li>
-    <li>ferme un café</li>
+    <li *ngFor="let t of tasks">
+      {{ t | translate}}
+    </li>
   </ul>
   </div>
 </div>

@@ -1,76 +1,13 @@
-<div class="ui-g">
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[0].date}}</p>
+<div class="ui-g" *ngFor="let experience of experiences">
+  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experience.date | translate}}</p>
   </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[0].id]">
-      {{experiences[0].headTitle | translate}}
+  <div class="ui-g-10 ui-md-10 ui-lg-10" >
+    <div class="wrapper">
+    <a [routerLink]="['/parcours', experience.id]">
+      {{experience.headTitle | translate}}
    </a>
-    <app-tasks [tasks]=""></app-tasks>
+    <app-tasks [tasks]="experience.tasks" [title]="experience.shortTitle"></app-tasks>
   </div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[1].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[1].id]">
-      {{experiences[1].headTitle | translate}}</a>
-      <app-tasks [tasks]=""></app-tasks>
-    </div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[2].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[2].id]">
-      {{experiences[2].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[3].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[3].id]">
-      {{experiences[3].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[4].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[4].id]">
-      {{experiences[4].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[5].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[5].id]">
-      {{experiences[5].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[6].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[6].id]">
-      {{experiences[6].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[7].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[7].id]">
-      {{experiences[7].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[8].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[8].id]">
-      {{experiences[8].headTitle | translate}}
-    </a></div>
-  </div>
-  <div class="ui-g-2 ui-md-2 ui-lg-2 date-box"><p>{{experiences[9].date}}</p>
-  </div>
-  <div class="ui-g-10 ui-md-10 ui-lg-10"><div class="wrapper">
-    <a [routerLink]="['/parcours', experiences[9].id]">
-      {{experiences[9].headTitle | translate}}
-    </a></div>
   </div>
 </div>
 <app-footer></app-footer>

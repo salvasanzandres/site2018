@@ -12,6 +12,7 @@ export class ParcoursComponent {
 
   constructor(private configurationService: ConfigurationService){
     this.experiences = this.configurationService.getExperiences();
+    console.log(this.experiences)
   }
 
 }
