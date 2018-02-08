@@ -122,7 +122,31 @@
   "fr_tasks_4": "Installation et configuration des boutiques en ligne prestashop et création d’un Template customisé.",
   "fr_tasks_5": "Mise en place d’une stratégie de référencement à partir du contenu et des outils Google SEO.",
   "fr_lang": "HTML, CSS, JAVASCRIPT, MYSQL, JQUERY, PROTOTYPE",
-  "fr_tools":"Prestashop, Wordpress, HTML, CSS, JAVASCRIPT, MYSQL, PHOTOSHOP, FLASH"
+  "fr_tools":"Prestashop, Wordpress, HTML, CSS, JAVASCRIPT, MYSQL, PHOTOSHOP, FLASH",
+
+  "eth_title": "Etheryl",
+  "eth_head_title": "Développeur web Ruby on Rails @ Etheryl",
+  "eth_date": "2009-2010",
+  "eth_stitle": "Développeur web Ruby on Rails @ Etheryl",
+  "eth_desc": "Création de sites intranet collaboratifs web 2.0 pour de grandes sociétés ou écoles.",
+  "eth_tasks_1":"Développement en Ruby on Rails des modules : Profil, fichiers, évènements et activité de la plateforme ;",
+  "eth_tasks_2":"Développement en JavaScript, CSS/HTML selon les normes W3C pour tous les navigateurs, même pour IE6.",
+  "eth_tasks_3": "Choix de la librairie JavaScript utilisé tel que prototype et jquery ; Conception de la base de données MySQL ;",
+  "eth_tasks_4": "Installation et configuration du serveur Unix – Ubuntu ;",
+  "eth_tasks_5": "Création Partie profil utilisateur : events, files, profil",
+  "eth_lang": "RUBY ON RAILS, HTML, CSS, JAVASCRIPT, MYSQL ",
+  "eth_tools":"OsX, SVN, ligne de commande",
+
+  "disney_title": "DisneyLand Paris",
+  "disney_head_title": "Développement PHP / Disneyland Paris",
+  "disney_date": "2008-2009",
+  "disney_stitle": "Développement PHP / Disneyland Paris",
+  "disney_desc": "Participation à deux projets distincts au sein de l’entité Outils and Méthodes",
+  "disney_tasks_1":"Projet ITIL : création du tableau de bord et son analyse.",
+  "disney_tasks_2":"  Projet NEDI : création d’une interface web en PHP qui permettait d'analyser le réseau et les postes pour vérifier en temps réel que les différents postes et nœuds étaient actifs à tout moment.",
+  "disney_lang": "Service manager HP, Excel, SharePoint, PHP, MYSQL, Windows, Unix"
+
+
 
 
 

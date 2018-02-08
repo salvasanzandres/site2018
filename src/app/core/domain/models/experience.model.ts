@@ -116,7 +116,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'eth_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['eth_tasks_1'],
+    'tasks': ['eth_tasks_1','eth_tasks_2','eth_tasks_3','eth_tasks_4','eth_tasks_5'],
     'tools': ['eth_lang', 'eth_tools'],
     'date':'eth_date'
   },
