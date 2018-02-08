@@ -4,12 +4,10 @@
   "menu_title_parcours": "Parcours",
   "menu_title_projects": "Projets",
   "presentation_text": "consulens in commune advocatos palatinarum primos scholarum adlocutus est mollius docens nec decere haec fieri nec prodesse addensque vocis obiurgatorio sonu quod si id placeret, post statuas Constantii deiectas super adimenda vita praefecto conveniet securius cogitari.Et prima post Osdroenam quam, ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.",
-  "welcome_title":"Hello its me...",
+  "welcome_title": "Hello its me...",
   "welcome_text": "Hinc ille commotus ut iniusta perferens et indigna praefecti custodiam protectoribus......",
   "title_tools": "Outils et Langages",
-  "title_task" : "Tâches en detail",
-
-
+  "title_task": "Tâches en detail",
   "ald_title": "ALD AUTOMOTIVE",
   "ald_head_title": "ALD AUTOMOTIVE GROUPE SG",
   "ald_date": "mai 2017 à mars 2018",
@@ -22,9 +20,7 @@
   "ald_tasks_5": "Préparation des POC pour les nouvelles features et besoins du métier.",
   "ald_tasks_6": "Suivi du déploiement et intégration de la solution finalisée dans l’environnement client.",
   "ald_lang": "Angular 4, Ionic 3, Cordova, Angular Material, npm, ",
-  "ald_tools":"GIT Flow, ng cli TFS Microsoft, Webpack, Sass, Augury, Testflight, Xcode, Intelij, API REST, Swagger, Postman",
-
-
+  "ald_tools": "GIT Flow, ng cli TFS Microsoft, Webpack, Sass, Augury, Testflight, Xcode, Intelij, API REST, Swagger, Postman",
   "cea_title": "CEA TRAASER",
   "cea_head_title": "CEA TRAASER",
   "cea_date": "6/2016 – 5/2017",
@@ -37,17 +33,14 @@
   "cea_tasks_5": "Codage des tests automatisés avec Jasmine.",
   "cea_tasks_6": "Déploiement Webpack et intégration de la solution finalisée dans l’environnement client.",
   "cea_lang": "Angular 2, Ionic 3, Cordova, Angular Material, npm, typescript, Typescript ",
-  "cea_tools":"GIT, Karma, jasmine, ng cli, Webpack, Sass, Augury, API REST, Postman",
-
-
-
+  "cea_tools": "GIT, Karma, jasmine, ng cli, Webpack, Sass, Augury, API REST, Postman",
   "ck_title": "Cross Knowledge",
   "ck_head_title": "Développeur Intégrateur @ CrossKnowledge",
   "ck_date": "9/2015 – 5/2016 ",
   "ck_stitle": "Développeur Intégrateur @ CrossKnowledge",
   "ck_desc": "Renforcer l’équipe intégration : participation à l’amélioration continue des services proposés aux clients de CrossKnowledge et développement et intégration de Yammer et chatter sur la plateforme LMS en angular js..Echanger avec les consultants supports, les chefs de projet, les intégrateurs, les designers et les développeurs.Conception et développement du widget Yammer, Google + et Chatter sur le LMS. Le widget interroge l’API afin d’afficher les informations de l’utilisateur et lui permettre de poster des commentaires et de l’open graph. Le widget est chargé sur la plateforme LMS.",
-  "ck_tasks_1":"Echanger avec les consultants supports, les chefs de projet, les intégrateurs, les designers et les développeurs.",
-  "ck_tasks_2":"Conception et développement du widget Yammer, Google + et Chatter sur le LMS. Le widget interroge l’API afin d’afficher les informations de l’utilisateur et lui permettre de poster des commentaires et de l’open graph. Le widget est chargé sur la plateforme LMS.",
+  "ck_tasks_1": "Echanger avec les consultants supports, les chefs de projet, les intégrateurs, les designers et les développeurs.",
+  "ck_tasks_2": "Conception et développement du widget Yammer, Google + et Chatter sur le LMS. Le widget interroge l’API afin d’afficher les informations de l’utilisateur et lui permettre de poster des commentaires et de l’open graph. Le widget est chargé sur la plateforme LMS.",
   "ck_tasks_3": "Organiser des Ateliers intégration chez les clients de CrossKnowledge.",
   "ck_tasks_4": "Présenter les nouveaux releases auprès de différentes équipes Crossknowlodge. Faire des propositions d’améliorations et les reporter dans le backlog.",
   "ck_tasks_5": "Mettre à disposition des parcours via SCORM connecteur pour le LMS client Gestion des projets intégration d’un portefeuille de clients",
@@ -55,21 +48,85 @@
   "ck_tasks_7": "Traduction en anglais de toutes les procédures d’intégration",
   "ck_tasks_8": "Tester les contenus SCORM/AICC et certifier les contenus tiers",
   "ck_lang": "AngularJS, typescript, Google API, Yammer API, Putty, Js, php5",
-  "ck_tools":"SVN, grunt, systemjs, bootstrap, npm, Navigateurs Web, Mercurial, Shell"
+  "ck_tools": "SVN, grunt, systemjs, bootstrap, npm, Navigateurs Web, Mercurial, Shell",
+  "maz_title": "Mazarine Digital",
+  "maz_head_title": "  Chef de Projet Technique/ Développeur @ Mazarine",
+  "maz_date": "4/2015 – 8/2015",
+  "maz_stitle": "Chef de Projet Technique/ Développeur @ Mazarine",
+  "maz_desc": "Mazarine est une agence de communication qui travaille sur des stratégies digitales de marques, principalement dans le luxe. Deux clients principaux : Dior Backstage et Dior Show.Les sites web réalisés sont responsive et compatibles avec ios (iphone et ipad), android et les navigateurs desktop classiques.",
+  "maz_tasks_1": "Rédaction des spécifications techniques",
+  "maz_tasks_2": "Organiser des réunions et points d’avancement avec les équipes.",
+  "maz_tasks_3": "Organisation des campagnes des tests en interne et avec le client sur les devices et supports présents dans le cahier des charges : ios, android, ie8...",
+  "maz_tasks_4": "Interlocuteur technique avec le client : questions concernant la livraison, les paramétrages, retours....",
+  "maz_tasks_5": "Gestion du planning des projets",
+  "maz_tasks_6": "Validation et réalistation des développents.",
+  "maz_lang": "AngularJS, api soap, mysql, html css, php",
+  "maz_tools": "systemjs, git, grunt, node js, Redmine, microsoft project, postman",
+  "pub_title": "Publicis Modem",
+  "pub_head_title": "Chef de projet Technique @ Publicis",
+  "pub_date": "6/2014 – 3/2015",
+  "pub_stitle": "Chef de projet Technique @ Publicis",
+  "pub_desc": "Publicis modem c'est l'agence digitale de Publicis. Deux clients principaux : Lucien Barrière et Carrefour.",
+  "pub_tasks_1": "Rédaction des spécifications techniques",
+  "pub_tasks_2": "Interlocuteur technique avec le client: questions concernant la livraison, les paramétrages, retours....",
+  "pub_tasks_3": "Fournir des estimations de temps pour les projets en cours et à venir. Briefer les développeurs concernant les taches à faire.",
+  "pub_tasks_4": "Conseiller le métier ou les équipes fonctionnels du meilleur choix devant une contrainte ou si plusieurs choix sont possibles.",
+  "pub_tasks_5": "Création du planning et sa mise à jour.",
+  "pub_tasks_6": "Organisation des campagnes des tests en interne et avec le client sur les devices et supports présents dans le cahier des charges : ios, android, ie8...",
+  "pub_tasks_7": "Gestion des tickets du projet et les router vers la bonne personne.",
+  "pub_tasks_8": "Tester et valider les livraisons (techniquement)",
+  "pub_lang": "Mysql, HTML CSS, php, Jquery, Angular js",
+  "pub_tools": "API REST, git, Gerrit,  Redmine, MS Project, Soapui, Phpmyadmin, Windows, iOS, android",
+  "ft_title": "Orange",
+  "ft_head_title": "Chef de Projet AMOA Technique / Développeur (Product Owner Proxy) @ Orange",
+  "ft_date": "9/2012 – 5/2014",
+  "ft_stitle": "Chef de Projet AMOA Technique / Développeur (Product Owner Proxy) @ Orange",
+  "ft_desc": "RECLANOO permet le traitement des réclamations déposées par les clients Orange France pro et résidentiels pour les univers fixe et internet. Les spécifications concernent la réécriture de l’application vers un environnement Zend en mode AGILE.",
+  "ft_tasks_1": "Recueil des besoins métiers ;",
+  "ft_tasks_2": "Création du modèle de données mesures financières et l’intégration du catalogue de données fourni par les métiers. Le catalogue permet de classifier les remboursements faits à partir de l’offre, motif, décision et type de Geste commercial ou remise ;",
+  "ft_tasks_3": "Rédaction des spécifications chez reclanoo du traitement NewMF. Le batch envoi par appel au WS de newMF les mesures financières des dossiers soldés dans la journée ;",
+  "ft_tasks_4": "Pilotage et suivi des incidents avec les métiers, utilisateurs et MOE ;",
+  "ft_tasks_5": "Préparation des tableaux de bord avec le travail réalisé par l’équipe MOE à la fin de chaque version ;",
+  "ft_tasks_6": "Ecriture des spécifications du projet Deezer sur Reclanoo. Le conseiller peut octroyer le montant d’une mesure financière au client en tant que Deezer ;",
+  "ft_tasks_7": "Préparation des maquettes des écrans en langage HTML pour les présentations aux métiers ;",
+  "ft_tasks_8": "Ecriture des tests d’acceptation fonctionnels des user story en BDD (Behaviour-Driven Development) ; SFD écran Solde. Ecran qui permet l’affichage et la gestion des réclamations soldées",
+  "ft_tasks_9": "SFD Reclabox. L’écran reclabox permet de traiter les réclamations du type Internet.",
+  "ft_tasks_10": "SFD Dépôt Résidentiel et Pro. Les écrans de saisie de réclamations, qui sont appelés par les différentes applications qui peuvent déposer des recla: CRM, Boutique, natif",
+  "ft_lang": "PHP Zend, mysql, html css",
+  "ft_tools": "Unix, sqlyog, word , entreprise architect, notepad ++, sharepoint, mingle, jenkins, excel ",
 
+  "vm_title": "Virgin Mobile",
+  "vm_head_title": "Développeur – Concepteur @ Virgin Mobile",
+  "vm_date": "2010 - 9/2012",
+  "vm_stitle": "Développeur – Concepteur @ Virgin Mobile",
+  "vm_desc": " Au sein du au pôle CRM, développement du portail des commandes.L'application accessible en interne permet de gérer les commandes en cours, et modifier les coordonnées du client.",
+  "vm_tasks_1": "Conception fonctionnelle : rédaction des spécifications fonctionnelles générales et détaillées ;",
+  "vm_tasks_2": "Rédaction des spécifications techniques servant au développement ; ",
+  "vm_tasks_3": "Développement du projet la Banque de France pour OMEA télécom ; ",
+  "vm_tasks_4": "Création des scripts qui permettent l’intégration des fichiers BDF dans le S.I ;",
+  "vm_tasks_5": "Ajout des contrôles pour toute acquisition avec RIB : prévention de la Fraude ;",
+  "vm_tasks_6": "Développement des évolutions du CRM pour accueillir le projet ADSL ; ",
+  "vm_tasks_7": "Participation à la recette fonctionnelle de la partie CRM au sein du projet ADSL ;",
+  "vm_tasks_8": "Développement du projet Nouvel espace client : développement des web services qui permettent à l'espace client de récupérer les informations du client ainsi que leur modification.",
+  "vm_lang": "PHP 5, MySQL, JavaScript, html, jquery, extJs ",
+  "vm_tools": "Windows, Unix, SVN, MantisN",
 
-
-
-
-
-
+  "fr_title": "Independant Création Sites Web",
+  "fr_head_title": "Conception, développement web",
+  "fr_date": "2010-2015",
+  "fr_stitle": "Conception, développement web",
+  "fr_desc": "Conception de site web pour ETI et PME",
+  "fr_tasks_1":"Construction de la structure de la page ;",
+  "fr_tasks_2":"Conception  Vérification des compatibilités avec les navigateurs ou Smartphone ;ption",
+  "fr_tasks_3": "Mise en place du site dans le serveur de production ;",
+  "fr_tasks_4": "Installation et configuration des boutiques en ligne prestashop et création d’un Template customisé.",
+  "fr_tasks_5": "Mise en place d’une stratégie de référencement à partir du contenu et des outils Google SEO.",
+  "fr_lang": "HTML, CSS, JAVASCRIPT, MYSQL, JQUERY, PROTOTYPE",
+  "fr_tools":"Prestashop, Wordpress, HTML, CSS, JAVASCRIPT, MYSQL, PHOTOSHOP, FLASH"
 
 
 
 }
-
-
-
 
 
 

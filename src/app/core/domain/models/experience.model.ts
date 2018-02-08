@@ -56,7 +56,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'maz_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['maz_tasks_1'],
+    'tasks': ['maz_tasks_1', 'maz_tasks_2', 'maz_tasks_3','maz_tasks_4' ,'maz_tasks_5' ,'maz_tasks_6'],
     'tools': ['maz_lang', 'maz_tools'],
     'date':'maz_date'
   },
@@ -68,7 +68,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'pub_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['pub_tasks_1'],
+    'tasks': ['pub_tasks_1','pub_tasks_2','pub_tasks_3','pub_tasks_4','pub_tasks_5','pub_tasks_6','pub_tasks_7','pub_tasks_8'],
     'tools': ['pub_lang', 'pub_tools'],
     'date':'pub_date'
   },
@@ -80,7 +80,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'ft_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['ft_tasks_1'],
+    'tasks': ['ft_tasks_1','ft_tasks_2','ft_tasks_3','ft_tasks_4','ft_tasks_5','ft_tasks_6','ft_tasks_7','ft_tasks_8','ft_tasks_9','ft_tasks_10'],
     'tools': ['ft_lang', 'ft_tools'],
     'date':'ft_date'
   },
@@ -92,7 +92,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'vm_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['vm_tasks_1'],
+    'tasks': ['vm_tasks_1','vm_tasks_2','vm_tasks_3','vm_tasks_4','vm_tasks_5','vm_tasks_6','vm_tasks_7','vm_tasks_8'],
     'tools': ['vm_lang', 'vm_tools'],
     'date':'vm_date'
   },
@@ -104,7 +104,7 @@ export const EXPERIENCES: Experience[] = [
     'description': 'fr_desc',
     'images': ['src/pepa.jpg'],
     'color': 'white',
-    'tasks': ['fr_tasks_1'],
+    'tasks': ['fr_tasks_1','fr_tasks_2','fr_tasks_3','fr_tasks_4','fr_tasks_5'],
     'tools': ['fr_lang', 'fr_tools'],
     'date':'fr_date'
   },
